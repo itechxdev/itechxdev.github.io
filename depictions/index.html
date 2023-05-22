@@ -25,7 +25,7 @@
 			contentBlocks,
 			() => {
                 $("#packageError").show();
-				$("#packageInformation").hide();				
+				$("#packageInformation").hide();
 			},
 			(xml) => {
 				document.title = $(xml).find("package>name").text();
